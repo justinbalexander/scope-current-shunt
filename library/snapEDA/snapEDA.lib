@@ -31,4 +31,29 @@ X VO 6 700 400 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
+#
+# BH123A
+#
+DEF BH123A U 0 40 Y N 1 L N
+F0 "U" -50 125 50 H V L BNN
+F1 "BH123A" -50 -200 50 H V L BNN
+F2 "BH123A" 0 0 50 H I L BNN
+F3 "Batt Holder Cr123a Thru Hole" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BH123A/BH123A-ND/2817712?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F5 "BH123A" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "BH123A-ND" 0 0 50 H I L BNN
+F8 "MPD _Memory" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -25 25 -25 0 N
+P 2 0 0 6 -100 0 -25 0 N
+P 2 0 0 16 -25 0 -25 -25 N
+P 2 0 0 16 25 100 25 0 N
+P 2 0 0 6 25 0 100 0 N
+P 2 0 0 16 25 0 25 -100 N
+X + + 200 0 100 L 40 40 0 0 P 
+X - - -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
 # End Library

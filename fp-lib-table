@@ -1,3 +1,4 @@
 (fp_lib_table
+  (lib (name BH123A)(type Legacy)(uri ${KIPRJMOD}/library/snapEDA/BH123A.mod)(options "")(descr ""))
   (lib (name INA129P)(type Legacy)(uri ${KIPRJMOD}/library/snapEDA/INA129P.mod)(options "")(descr ""))
 )
